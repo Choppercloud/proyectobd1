@@ -1,0 +1,36 @@
+body {
+    background-color: #f4f4f4;
+    font-family: "Roboto Slab", serif;
+}
+
+.venta_ventanilla-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0px 0px 8px #aaa;
+}
+
+.venta_ventanilla-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.venta_ventanilla-form form input[type="text"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #333;
+}
+
+.venta_ventanilla-form form input[type="submit"] {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.venta_ventanilla-form form input[type="submit"]:hover {
+    background-color: #444;
+}

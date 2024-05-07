@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    background-image: url(../style.css/images/ruta.jpg);
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  }
+  
+  .rutas-table {
+    width: 80%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  table th {
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  table td {
+    padding: 10px 30px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+  
+  table tr:hover {
+    background-color: #eee;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 20px;
+  }
+  
+  .menu a {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .menu a:hover {
+    background-color: #222;
+  }
+  
+  .rutas-table--edit,
+  .rutas-table--delete {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 12px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .rutas-table--edit:hover,
+  .rutas-table--delete:hover {
+    background-color: #ddd;
+  }
+  
+  .rutas-table--edit {
+    background-color: #23b94d; 
+    color: #fff; 
+  }
+  
+  .rutas-table--delete {
+    background-color: #e74c3c; 
+    color: #fff;
+  }
+  

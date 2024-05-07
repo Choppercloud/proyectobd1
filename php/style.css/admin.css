@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto Slab", serif;
+}
+
+body {
+    background-image: url(../style.css/images/terminal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Roboto Slab", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d59bd74;
+}
+
+.header {
+    background-color: #0d59bd74;
+    color: #181717;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+
+
+.nav {
+    list-style: none;
+    padding: 6px;
+    background-color: #125292d8;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav > li {
+    display: inline-block;
+    position: relative;
+  
+}
+
+.nav > li > a {
+    display: block;
+   
+}
+
+.nav > li > ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    background-color: #063b6cd8;
+}
+
+
+.nav > li:hover > ul {
+    display: block;
+}
+
+.nav > li > ul > li {
+    display: block;
+}
+.content {
+    margin: 20px;
+}
+
+button {
+    padding: 5px 15px;
+    position: fixed;
+    background-color: #d84528;
+    color: rgb(240, 235, 235);
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    top: 70px; 
+    right: 20px;
+}
